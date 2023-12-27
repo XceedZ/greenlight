@@ -44,7 +44,6 @@
 }
 
 .leaf-kiri {
-  z-index: 2;
   margin-top: -80px;
 }
 img.daun-kirimg {
@@ -89,7 +88,30 @@ img.daun-kirimg {
   max-width: 100%;
   height: auto;
   margin-left: 60%; /* Geser ke ujung kanan */
-  margin-top: -1000px; /* Sesuaikan jarak dari atas sesuai keinginan Anda */
+  margin-top: -1070px; /* Sesuaikan jarak dari atas sesuai keinginan Anda */
+}
+
+.order-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #00715D;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #005346;
+}
+
+.arrow-icon {
+  margin-left: 10px;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 600px) {
