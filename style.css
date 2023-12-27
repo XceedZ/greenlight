@@ -85,8 +85,6 @@ img.daun-kirimg {
 }
 
 .leaf-kanan {
-  max-width: 100%;
-  height: auto;
   margin-left: 60%; /* Geser ke ujung kanan */
   margin-top: -1070px; /* Sesuaikan jarak dari atas sesuai keinginan Anda */
 }
@@ -114,12 +112,74 @@ img.daun-kirimg {
   display: inline-block;
 }
 
-@media only screen and (max-width: 600px) {
+.navmobile {
+  display: none;
+}
+
+.daunterbang {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
   .navbar {
     display: none; /* Menyembunyikan navbar pada layar kecil */
   }
 
   .navbar .icon {
     display: block; /* Menampilkan ikon pada layar kecil */
+  }
+  .leaf-kiri {
+display: none;
+  }
+  .text-title {
+    top: 80px;
+    left: 10px;
+    font-size: 35px;
+    max-width: 85%;
+  }
+  .text-title p {
+    font-size: 15px;
+  }
+  .leaf-kanan {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-left: 0;
+    margin-top: 120px;
+  }
+
+  /* Sesuaikan ukuran gambar .daun-kaananimg */
+  .leaf-kanan img.daun-kaananimg {
+    max-width: none;
+    width: 320px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  .navmobile {
+    display: block;
+    margin-top: -780px; /* Sesuaikan nilai margin-top sesuai kebutuhan untuk menaikkan elemen */
+    margin-left: 20px;
+  }
+
+  .order-button {
+    padding: 8px 18px;
+    font-size: 12px;
+  }
+
+  .daunterbang {
+    display: block;
+    margin-left: 3%;
+    margin-top: -65px; /* Sesuaikan nilai margin-top sesuai kebutuhan */
+  }
+
+  /* Pemisahan properti untuk .daunterbang */
+  .daunterbang img {
+    max-width: none;
+    width: 100%;
+    height: auto;
   }
 }
