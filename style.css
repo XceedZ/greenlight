@@ -55,7 +55,7 @@ img.daun-kirimg {
 .text-title {
   color: #000;
   font-family: Quicksand;
-  font-size: 8vh;
+  font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -88,7 +88,7 @@ img.daun-kirimg {
 .leaf-kanan {
   max-width: 100%;
   height: auto;
-  margin-left: 880px; /* Geser ke ujung kanan */
+  margin-left: 60%; /* Geser ke ujung kanan */
   margin-top: -1000px; /* Sesuaikan jarak dari atas sesuai keinginan Anda */
 }
 
