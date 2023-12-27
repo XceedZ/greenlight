@@ -1,0 +1,103 @@
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgba(134, 134, 134, 0.60);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: color 0.2s ease; /* Menambahkan transisi warna selama 0.3 detik dengan efek ease */
+}
+
+.navbar a:hover {
+  color: #00715D;
+}
+
+.navbar .active a {
+  color: #00715D;
+}
+
+.navbar .icon {
+  position: absolute;
+  top: 4%;
+  right: 0;
+  margin-right: 200px; /* Sesuaikan jarak dari tepi kanan sesuai keinginan Anda */
+}
+
+.navbar .icon:last-child {
+  top: 3.1%;
+  margin-right: 130px; /* Atur jarak yang lebih besar untuk ikon profil */
+}
+
+.leaf-kiri {
+  z-index: 2;
+  margin-top: -80px;
+}
+img.daun-kirimg {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-title {
+  color: #000;
+  font-family: Quicksand;
+  font-size: 8vh;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: -600px;
+  left: -100px;
+  max-width: 45%;
+  margin: 0 auto;
+  padding-bottom: 20px; /* Menambahkan padding bawah untuk memberikan jarak antara .text-title dan p */
+}
+
+.text-title .highlight {
+  color: #00715D;
+}
+
+.text-title p {
+  color: rgba(134, 134, 134, 0.60);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 80%;
+}
+
+.spacer {
+  height: 20px; /* Sesuaikan tinggi spacer sesuai kebutuhan Anda */
+}
+
+.leaf-kanan {
+  max-width: 100%;
+  height: auto;
+  margin-left: 880px; /* Geser ke ujung kanan */
+  margin-top: -1000px; /* Sesuaikan jarak dari atas sesuai keinginan Anda */
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: none; /* Menyembunyikan navbar pada layar kecil */
+  }
+
+  .navbar .icon {
+    display: block; /* Menampilkan ikon pada layar kecil */
+  }
+}
